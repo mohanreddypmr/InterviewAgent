@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_project"
+version = "0.1.0"
+description = "My awesome project with two packages in src layout"
+authors = [
+    { name = "interviewagent", email = "interviewagent@example.com" }
+]
+license = { text = "MIT" }  # Or choose your license
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.7"
+
+dependencies = [
+    # Add your project dependencies here
+    # For example:
+    # "requests >= 2.20",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mohanreddypmr/InterviewAgent"
+"Bug Tracker" = "https://github.com/mohanreddypmr/InterviewAgent/issues"
+
+[tool.setuptools]
+packages = ["llms", "resume_extract"]
+package-dir = {"" = "src"} # Tells setuptools where to find the packages
