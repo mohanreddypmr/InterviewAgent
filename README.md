@@ -2,7 +2,7 @@
 
 **InterviewAgent** is a tool designed to streamline and enhance the interview process. It analyzes resumes, generates tailored interview questions, evaluates responses, and provides a comprehensive summary of the candidate's performance across various dimensions, including technical skills, soft skills, and overall suitability for the role.
 
-## Features
+## Features(need to build some features)
 
 - **Resume Analysis**: Extracts key information and generates relevant questions based on the candidate's resume.
 - **Dynamic Questioning**: Combines technical questions with general questions to evaluate the candidate holistically.
